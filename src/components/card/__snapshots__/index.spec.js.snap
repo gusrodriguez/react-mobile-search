@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    tour={
+      Object {
+        "currency": "$",
+        "price": "14",
+        "title": "German Tour: Parliament Quarter Reichstag glass dome",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <li
+          className="card_list-item"
+        >
+          <div
+            className="card_align-wrapper"
+          >
+            <img
+              alt="German Tour: Parliament Quarter Reichstag glass dome"
+              className="card_picture"
+            />
+            <div
+              className="card_title"
+            >
+              German Tour: Parliament Quarter Reichstag glass dome
+              <div
+                className="card_rating"
+              >
+                <StarRatingComponent
+                  editing={false}
+                  emptyStarColor="#333"
+                  name="card_rating"
+                  starColor="#ffb400"
+                  starCount={5}
+                  value={NaN}
+                />
+              </div>
+            </div>
+          </div>
+        </li>,
+        <span
+          className="card_price "
+        >
+          $ 14
+        </span>,
+        <hr
+          className="card_list-divider"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="card_align-wrapper"
+          >
+            <img
+              alt="German Tour: Parliament Quarter Reichstag glass dome"
+              className="card_picture"
+            />
+            <div
+              className="card_title"
+            >
+              German Tour: Parliament Quarter Reichstag glass dome
+              <div
+                className="card_rating"
+              >
+                <StarRatingComponent
+                  editing={false}
+                  emptyStarColor="#333"
+                  name="card_rating"
+                  starColor="#ffb400"
+                  starCount={5}
+                  value={NaN}
+                />
+              </div>
+            </div>
+          </div>,
+          "className": "card_list-item",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="German Tour: Parliament Quarter Reichstag glass dome"
+                className="card_picture"
+              />,
+              <div
+                className="card_title"
+              >
+                German Tour: Parliament Quarter Reichstag glass dome
+                <div
+                  className="card_rating"
+                >
+                  <StarRatingComponent
+                    editing={false}
+                    emptyStarColor="#333"
+                    name="card_rating"
+                    starColor="#ffb400"
+                    starCount={5}
+                    value={NaN}
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "card_align-wrapper",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "German Tour: Parliament Quarter Reichstag glass dome",
+                "className": "card_picture",
+                "src": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "German Tour: Parliament Quarter Reichstag glass dome",
+                  <div
+                    className="card_rating"
+                  >
+                    <StarRatingComponent
+                      editing={false}
+                      emptyStarColor="#333"
+                      name="card_rating"
+                      starColor="#ffb400"
+                      starCount={5}
+                      value={NaN}
+                    />
+                  </div>,
+                  undefined,
+                ],
+                "className": "card_title",
+              },
+              "ref": null,
+              "rendered": Array [
+                "German Tour: Parliament Quarter Reichstag glass dome",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <StarRatingComponent
+                      editing={false}
+                      emptyStarColor="#333"
+                      name="card_rating"
+                      starColor="#ffb400"
+                      starCount={5}
+                      value={NaN}
+                    />,
+                    "className": "card_rating",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "editing": false,
+                      "emptyStarColor": "#333",
+                      "name": "card_rating",
+                      "starColor": "#ffb400",
+                      "starCount": 5,
+                      "value": NaN,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                undefined,
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "$ 14",
+          "className": "card_price ",
+        },
+        "ref": null,
+        "rendered": "$ 14",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "card_list-divider",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <li
+            className="card_list-item"
+          >
+            <div
+              className="card_align-wrapper"
+            >
+              <img
+                alt="German Tour: Parliament Quarter Reichstag glass dome"
+                className="card_picture"
+              />
+              <div
+                className="card_title"
+              >
+                German Tour: Parliament Quarter Reichstag glass dome
+                <div
+                  className="card_rating"
+                >
+                  <StarRatingComponent
+                    editing={false}
+                    emptyStarColor="#333"
+                    name="card_rating"
+                    starColor="#ffb400"
+                    starCount={5}
+                    value={NaN}
+                  />
+                </div>
+              </div>
+            </div>
+          </li>,
+          <span
+            className="card_price "
+          >
+            $ 14
+          </span>,
+          <hr
+            className="card_list-divider"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="card_align-wrapper"
+            >
+              <img
+                alt="German Tour: Parliament Quarter Reichstag glass dome"
+                className="card_picture"
+              />
+              <div
+                className="card_title"
+              >
+                German Tour: Parliament Quarter Reichstag glass dome
+                <div
+                  className="card_rating"
+                >
+                  <StarRatingComponent
+                    editing={false}
+                    emptyStarColor="#333"
+                    name="card_rating"
+                    starColor="#ffb400"
+                    starCount={5}
+                    value={NaN}
+                  />
+                </div>
+              </div>
+            </div>,
+            "className": "card_list-item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="German Tour: Parliament Quarter Reichstag glass dome"
+                  className="card_picture"
+                />,
+                <div
+                  className="card_title"
+                >
+                  German Tour: Parliament Quarter Reichstag glass dome
+                  <div
+                    className="card_rating"
+                  >
+                    <StarRatingComponent
+                      editing={false}
+                      emptyStarColor="#333"
+                      name="card_rating"
+                      starColor="#ffb400"
+                      starCount={5}
+                      value={NaN}
+                    />
+                  </div>
+                </div>,
+              ],
+              "className": "card_align-wrapper",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "German Tour: Parliament Quarter Reichstag glass dome",
+                  "className": "card_picture",
+                  "src": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "German Tour: Parliament Quarter Reichstag glass dome",
+                    <div
+                      className="card_rating"
+                    >
+                      <StarRatingComponent
+                        editing={false}
+                        emptyStarColor="#333"
+                        name="card_rating"
+                        starColor="#ffb400"
+                        starCount={5}
+                        value={NaN}
+                      />
+                    </div>,
+                    undefined,
+                  ],
+                  "className": "card_title",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "German Tour: Parliament Quarter Reichstag glass dome",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <StarRatingComponent
+                        editing={false}
+                        emptyStarColor="#333"
+                        name="card_rating"
+                        starColor="#ffb400"
+                        starCount={5}
+                        value={NaN}
+                      />,
+                      "className": "card_rating",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "editing": false,
+                        "emptyStarColor": "#333",
+                        "name": "card_rating",
+                        "starColor": "#ffb400",
+                        "starCount": 5,
+                        "value": NaN,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  undefined,
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "$ 14",
+            "className": "card_price ",
+          },
+          "ref": null,
+          "rendered": "$ 14",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "card_list-divider",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

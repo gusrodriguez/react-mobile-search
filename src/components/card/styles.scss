@@ -1,0 +1,53 @@
+@import "../../variables";
+
+.card {
+    &_list-item {
+      cursor: pointer;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    &_picture {
+      margin: 0 $gutter 0 0;
+      object-fit: cover;
+      width: 90px;
+      height: 60px;
+    }
+    &_list-divider {
+      border: 0;
+      height: 1px;
+      overflow: hidden;
+      background-color: $background-card-divider;
+      margin-right: $gutter;
+    }
+    &_title {
+      width: 50%;
+    }
+    &_price {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: $gutter;
+      font-size: 18px;
+      font-weight: 600;
+      &.card_price_special-offer {
+        color: $background-green;
+      }
+    }
+    &_rating {
+      display: block;
+    }
+    &_badge {
+      display: inline-block;
+      background: $background-green;
+      border-radius: 2px;
+      padding: 3px 5px;
+       &_text {
+         color: white;
+       }
+    }
+    &_align-wrapper {
+      display: flex;
+      align-items: center;
+      padding-top: $gutter;
+    }
+  }

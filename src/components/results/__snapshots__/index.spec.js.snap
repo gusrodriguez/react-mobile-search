@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Results
+    tours={
+      Array [
+        Object {
+          "currency": "$",
+          "isSpecialOffer": false,
+          "price": "14",
+          "rating": "4.8",
+          "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+          "title": "German Tour: Parliament Quarter Reichstag glass dome",
+        },
+        Object {
+          "currency": "$",
+          "isSpecialOffer": false,
+          "price": "14",
+          "rating": "4.8",
+          "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+          "title": "German Tour: Parliament Quarter Reichstag glass dome",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="results"
+      >
+        <div
+          className="results_box"
+        >
+          <ul
+            className="results_list"
+          >
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+          </ul>
+        </div>
+      </div>,
+      "className": "results_container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="results_box"
+        >
+          <ul
+            className="results_list"
+          >
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+          </ul>
+        </div>,
+        "className": "results",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul
+            className="results_list"
+          >
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+            <Card
+              tour={
+                Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                }
+              }
+            />
+          </ul>,
+          "className": "results_box",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />,
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />,
+            ],
+            "className": "results_list",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "tour": Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "tour": Object {
+                  "currency": "$",
+                  "isSpecialOffer": false,
+                  "price": "14",
+                  "rating": "4.8",
+                  "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                  "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "ul",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="results"
+        >
+          <div
+            className="results_box"
+          >
+            <ul
+              className="results_list"
+            >
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+            </ul>
+          </div>
+        </div>,
+        "className": "results_container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="results_box"
+          >
+            <ul
+              className="results_list"
+            >
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+            </ul>
+          </div>,
+          "className": "results",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="results_list"
+            >
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+              <Card
+                tour={
+                  Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  }
+                }
+              />
+            </ul>,
+            "className": "results_box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Card
+                  tour={
+                    Object {
+                      "currency": "$",
+                      "isSpecialOffer": false,
+                      "price": "14",
+                      "rating": "4.8",
+                      "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                      "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                    }
+                  }
+                />,
+                <Card
+                  tour={
+                    Object {
+                      "currency": "$",
+                      "isSpecialOffer": false,
+                      "price": "14",
+                      "rating": "4.8",
+                      "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                      "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                    }
+                  }
+                />,
+              ],
+              "className": "results_list",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "tour": Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "tour": Object {
+                    "currency": "$",
+                    "isSpecialOffer": false,
+                    "price": "14",
+                    "rating": "4.8",
+                    "thumbnail": "https://cdn.getyourguide.com/img/tour_img-342032-148.jpg",
+                    "title": "German Tour: Parliament Quarter Reichstag glass dome",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
