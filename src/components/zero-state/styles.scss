@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.zero-state {
+  display: flex;
+  justify-content: center;
+  background: $zero-state-background;
+  color: $zero-state-color;
+  height: 100vh;
+  margin-top: 150px;
+  font-size: 19px;
+  text-align: center;
+  padding: $gutter;
+}
