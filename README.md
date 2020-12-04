@@ -3,8 +3,8 @@
 ## What's this?
 An implementation of a mobile search pattern in a web-mobile React application. 
 
-## Why do I want this?
-To see an example of a web-mobile search pattern :iphone: 
+## What could it be useful for?
+To see an example of a web-mobile search pattern :iphone:
 
 ## What pattern?
 You know... the user inputs a word in a searchbox, and some suggestions related to that word will be autosuggested. By tapping on the suggestion, the related results will be displayed below. Just like the web-mobile behavior of Google.
