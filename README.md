@@ -35,7 +35,7 @@ All those words are stored on a configurable file calles 'suggested-entries.js'
  
 ## Does it work in desktop?
 
-- No. Desktop and tablet layout are not considered.
+- :no_entry_sign: No. Desktop and tablet layout are not considered.
 
 ## Run the built application
 - Simply navigate the index.html file from your modern chrome version
